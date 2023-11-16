@@ -56,6 +56,8 @@ async function getImg() {
   const imageData = await fetch(api_url + "/api/banners")
     .then((res) => res.json())
     .then((imageData) => {
+      delete imageData[2]; delete imageData[3]; delete imageData[4];
+      console.log(imageData);
       return imageData;
     });
   return imageData;
