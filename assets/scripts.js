@@ -71,7 +71,8 @@ async function loadImg() {
     image_name: 'AviationCredits.png',
     name: "Aviation Credits"
   };
-  let outputStr = `<div class="carousel-item active" data-bs-interval="10000">
+  let outputStr = "";
+  outputStr += `<div class="carousel-item" data-bs-interval="10000">
   <img
     src="assets/${localImage.image_name}"
     class="d-block w-100"
