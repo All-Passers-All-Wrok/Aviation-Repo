@@ -1,0 +1,212 @@
+[
+    {
+      "FirstName": "Humphrey",
+      "LastName": "Abeh",
+      "Email": "AbehHu@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Professor",
+      "Phone": "(815)836-5511"
+    },
+    {
+      "FirstName": "Raul",
+      "LastName": "Armenta",
+      "Email": "rarmenta@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Erik",
+      "LastName": "Baker",
+      "Email": "bakerer@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-5936"
+    },
+    {
+      "FirstName": "Bryan",
+      "LastName": "Doughty",
+      "Email": "bdoughty@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)834-6027"
+    },
+    {
+      "FirstName": "Paul",
+      "LastName": "Dybinski",
+      "Email": "pdybinski@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Instructor",
+      "Phone": "(815)836-5422"
+    },
+    {
+      "FirstName": "Matthew",
+      "LastName": "Franklin",
+      "Email": "franklma@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5435"
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "Freeman",
+      "Email": "lfreeman4@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Executive Director of Flight Operations",
+      "Phone": "(815)836-5453"
+    },
+    {
+      "FirstName": "Eric",
+      "LastName": "Jones",
+      "Email": "rjones20@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Professor",
+      "Phone": "(815)258-4308"
+    },
+    {
+      "FirstName": "Michael",
+      "LastName": "Julius",
+      "Email": "juliusmi@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5761"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Brian",
+      "LastName": "Kozak",
+      "Email": "bkozak@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5440"
+    },
+    {
+      "FirstName": "Yvonne",
+      "LastName": "LeClaire",
+      "Email": "LeclaiYv@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Instructor",
+      "Phone": "(815)836-5558"
+    },
+    {
+      "FirstName": "Keith",
+      "LastName": "McGill",
+      "Email": "McgillKe@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Associate Professor",
+      "Phone": "(815)836-5053"
+    },
+    {
+      "FirstName": "Craig",
+      "LastName": "Neville",
+      "Email": "NevillCr@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Associate Professor",
+      "Phone": "(815)834-6016"
+    },
+    {
+      "FirstName": "Louis",
+      "LastName": "Perillo",
+      "Email": "lperillo@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5476"
+    },
+    {
+      "Doctor": "Dr.",
+      "FirstName": "Ryan",
+      "LastName": "Phillips",
+      "Email": "philliry@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Professor",
+      "Phone": "(815)836-5089"
+    },
+    {
+      "FirstName": "Jacob",
+      "LastName": "Reed",
+      "Email": "jreed5@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5508"
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Slutz",
+      "Email": "SlutzCh@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Professor",
+      "Phone": "(815)836-5146"
+    },
+    {
+      "FirstName": "Christopher",
+      "LastName": "Stevens",
+      "Email": "stevench@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Assistant Professor",
+      "Phone": "(815)836-5424"
+    },
+    {
+      "FirstName": "Kaitlyn",
+      "LastName": "Weber",
+      "Email": "kweber1@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Director of Aviation Admission",
+      "Phone": "(815)836-5920"
+    },
+    {
+      "FirstName": "Sandy",
+      "LastName": "Schuh",
+      "Email": "schuhsa@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Aviation and Transportation Department Manager",
+      "Phone": "(815)836-5776"
+    },
+    {
+      "FirstName": "Andrea",
+      "LastName": "Madura",
+      "Email": "amadura@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Administrative Assistant",
+      "Phone": "(815)836-5434"
+    },
+    {
+      "FirstName": "Martina",
+      "LastName": "Barnat",
+      "Email": "mbarnat@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Flight Operations Manager",
+      "Phone": "(815)836-5220"
+    },
+    {
+      "FirstName": "Anthony",
+      "LastName": "Mannino",
+      "Email": "amannino@lewisu.edu",
+      "Department": "Aviation and Transportation Studies",
+      "Title": "Coordinator of Aviation Safety"
+    },
+    {
+      "Doctor": "Dr. ",
+      "FirstName": "Christopher",
+      "LastName": "White",
+      "Email": "cwhite10@lewisu.edu",
+      "Department": "College of Aviation, Science & Technology",
+      "Title": "Dean, College of Aviation, Science & Technology",
+      "Phone": "(815)836-5584"
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "Pariseau",
+      "Email": "spariseau@lewisu.edu",
+      "Department": "College of Aviation, Science & Technology",
+      "Title": "Assistant Dean",
+      "Phone": "(815)836-5020"
+    },
+    {
+      "FirstName": "Christine",
+      "LastName": "Morrow",
+      "Email": "morrowch@lewisu.edu",
+      "Department": "College of Aviation, Science & Technology",
+      "Title": "Administrative Assistant, Dean's Office",
+      "Phone": "(815)836-5152"
+    }
+]

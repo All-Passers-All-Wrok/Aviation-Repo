@@ -37,7 +37,7 @@ async function getData() {
   console.log(data);
 }
 
-async function loadData() {
+/*async function loadData() {
   await getData();
   outputStr = "";
   data.forEach((element, index) => {
@@ -49,8 +49,8 @@ async function loadData() {
   });
   $("#profs").html(outputStr);
 }
-
-loadData();
+*/
+//loadData();
 
 async function getImg() {
   const imageData = await fetch(api_url + "/api/banners")
@@ -65,7 +65,25 @@ async function getImg() {
 
 async function loadImg() {
   const imageData = await getImg();
-  outputStr = "";
+
+  // pulls images from assets folder
+  const localImage = {
+    image_name: 'AviationCredits.png',
+    name: "Aviation Credits"
+  };
+  let outputStr = `<div class="carousel-item active" data-bs-interval="10000">
+  <img
+    src="assets/${localImage.image_name}"
+    class="d-block w-100"
+    alt="${localImage.name}"
+    width="375"
+    height="500"
+  />
+  <div class="carousel-caption d-none d-md-block">
+    <h5>${localImage.name}</h5>
+  </div>
+</div>`
+  //outputStr = "";
   imageData.forEach((element, index) => {
     const image_url = api_url + "/uploads/" + element.image_name;
     outputStr += `<div class="carousel-item ${
@@ -96,5 +114,49 @@ function openProfessorModal(professorId) {
   $("#professorOffice").html(professor.room);
   $("#professorModal").modal("show")
 }
+
+
+// Function to fetch professors from the JSON file
+function fetchProfessors() {
+  fetch('assets/aviationfaculty.json')
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          return response.json();
+      })
+      .then(data => addProfessorsToTable(data))
+      .catch(error => console.error('Error fetching the professors:', error));
+}
+
+
+// Function to add professors to the table
+function addProfessorsToTable(professors) {
+  const tableBody = document.getElementById('profs');
+
+  professors.forEach(professor => {
+      const tr = document.createElement('tr');
+      
+      const nameTd = document.createElement('td');
+      nameTd.textContent = `${professor.FirstName} ${professor.LastName}`;
+
+      const officeTd = document.createElement('td');
+      officeTd.textContent = professor.Office ? professor.Office : 'N/A';
+
+      const emailTd = document.createElement('td');
+      emailTd.textContent = professor.Email;
+
+      tr.appendChild(nameTd);
+      tr.appendChild(officeTd);
+      tr.appendChild(emailTd);
+
+      tableBody.appendChild(tr);
+  });
+}
+
+
+
+// Call fetchProfessors on window load or DOMContentLoaded event
+window.addEventListener('DOMContentLoaded', fetchProfessors);
 
 loadImg();
