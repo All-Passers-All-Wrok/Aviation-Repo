@@ -8,6 +8,11 @@ Ryan Anderson: ryananderson@lewisu.edu
 
 David Abrutis: davidaabrutis@lewisu.edu
 
+Pablo Enriquez: pablorenriquez@lewisu.edu
+
+Jacob Prince: jacobmprince@lewisu.edu
+
+Luke Mendiola: lukecmendiola@lewisu.edu
 
 ## MVP:
 https://github.com/Scrumdiddliumptious/ECAMS-Billboard-Static/blob/master/MVP.md
